@@ -1,7 +1,5 @@
 package com.tiger.functool.util;
 
-import javax.validation.Validation;
-import javax.validation.Validator;
 import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +8,6 @@ import java.util.regex.Pattern;
 
 public class ValidationUtils {
 
-    private static Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
 
     public static boolean isNotBlank(String str){
 
